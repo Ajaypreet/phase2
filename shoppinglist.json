@@ -1,0 +1,34 @@
+{
+    "shoppinglist": [
+       { "item": "Dress",
+        "price": 69.05,
+        "image": "dress.jpg"
+    },
+    {
+        "item": "RedDress",
+        "price": 70.00,
+        "image": "reddress.jpg"
+        },
+        {
+            "item": "Sandals",
+            "price": 25.00,
+            "image": "sandals.jpg"
+            },
+            {
+                "item": "Trouser",
+                "price": 46.50,
+                "image": "trouser.jpg"
+                },{
+                    "item": "Lipstick",
+                    "price": 10.00,
+                    "image": "lipstick.jpg"
+                    },
+                    {
+                        "item": "Jewellry",
+                        "price": 70.00,
+                        "image": "jewellry.jpg"
+                        }
+
+    ]
+}
+    
