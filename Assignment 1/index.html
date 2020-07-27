@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PHASE PROJECT 2 </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="main.js" defer></script>
+    <script src="fetch.js" defer></script>
+
+    <!-- load the script-->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQwIMJxPIspyDhaa85hGWcTMbqpypttFk&callback=initMap">
+    </script>
+    <script src="geolocationapi.js" defer></script>
+
+
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Galada&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class>
+        <header>
+            <h1> CLOTHES SHOPPING LIST</h1>
+        </header>
+    </div>
+    <main>
+        <div class="div1">
+            <p>ADD TO THE LIST.</p>
+            <input type="text" id="addingintodo" placeholder="TO-DO-ITEM">
+            <button onclick="newtodo()" class="newbutton">Submit </button>
+
+
+
+        </div>
+        <div>
+            <ul id="todolistitems">
+
+            </ul>
+        </div>
+        <section id="shopping" class="row">
+            <h2>Purchase List</h2>
+        </section>
+        <section class="row">
+            <h2> Shopping Stores Near You</h2>
+            <button id="mylocation">Is There A Shopping Near Me?</button>
+            <p id="location"></p>
+            
+            <div id="map"></div>
+        </section>
+    </main>
+</body>
+
+</html>

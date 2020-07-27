@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url('photo-1554189097-ffe88e998a2b.jpg');
+    background-color: chocolate;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size: 10em;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(255, 0, 140);
+}
+
+div.div1 {
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+div.div1>p {
+    display: inline-block;
+    font-size: 5em;
+    color: rgb(168, 6, 6)
+}
+
+
+
+
+li {
+    display: inherit;
+
+}
+
+input#addingintodo {
+    background: floralwhite;
+    color: green;
+    height: 70px;
+    width: 250px;
+    font-size: 40px;
+    border-radius: 150;
+    padding: 5px;
+    background: orangered;
+}
+
+button.newbutton {
+    width: 200px;
+    height: 80px;
+    border-radius: 100px;
+    color: rgb(206, 47, 255);
+    background: yellow;
+    font-size: 50px;
+
+
+}
+
+button.removebutton {
+    width: 150px;
+    height: 80px;
+    border-radius: 150px;
+    color: white;
+    background: red;
+    font-size: 40px;
+
+}
+
+p#newlist {
+    display: inline-block;
+    font-size: 50px;
+    color: blue;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+input#mychkbox {
+    width: 35px;
+    height: 30px;
+
+}
+
+
+h1 {
+    font-size: 10rem;
+    padding: 4em 0;
+}
+
+h1,
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+ul li {
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+}
+
+#shopping h3 {
+    font-family: 'Galada', cursive;
+    font-size: 4em;
+}
+
+p {
+    font-size: 4em;
+}
+
+li button {
+    margin: 20px;
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+}
+
+input[type="text"] {
+    margin: 2em 0;
+}
+
+section {
+    border: 1px dashed #333;
+    padding: 4em 2em;
+}
+
+section img {
+    width: 20%;
+    height: 20%;
+
+}
+
+#mylocation {
+    margin: 8em 0;
+}
+
+#map {
+    height: 1500px;
+    width: 2000px;
+    display: inline-block;
+}
